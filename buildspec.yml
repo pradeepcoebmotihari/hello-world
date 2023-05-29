@@ -7,8 +7,7 @@ phases:
       - mvn clean package
   post_build:
     commands:
-      - echo Build completed successfully
-      - dir target
+      - echo Build completed successfull
 artifacts:
   files:
     - target/webapp.war
