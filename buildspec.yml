@@ -13,4 +13,4 @@ phases:
       - ls
 artifacts:
   files:
-    - /webapp/target/webapp.war
+    - webapp.war
