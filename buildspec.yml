@@ -11,4 +11,3 @@ phases:
 artifacts:
   files:
     - target/webapp.war
-  discard-paths: yes
