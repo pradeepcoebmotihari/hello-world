@@ -9,6 +9,8 @@ phases:
     commands:
       - echo Build completed successfull
       - ls
+      - cd webapp
+      - ls
 artifacts:
   files:
     - webapp.war
