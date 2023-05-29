@@ -9,6 +9,7 @@ phases:
     commands:
       - echo Build completed successfull
       - mv target/webapp.war webapp.war
+      - ls
 artifacts:
   files:
     - webapp.war
