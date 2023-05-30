@@ -8,6 +8,8 @@ phases:
   post_build:
     commands:
       - echo Build completed successfull
+      - ls
+      - pwd
       - cd webapp/target/
       - ls
 artifacts:
