@@ -12,3 +12,4 @@ phases:
 artifacts:
   files:
     - webapp/target/webapp.war
+    - webapp/target/appspec.yml
