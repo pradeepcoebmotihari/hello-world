@@ -1,9 +1,5 @@
 version: 0.0
 os: linux
 files:
-  commands:
-  - ls
-  - pwd
-  
   - source: webapp/target/webapp.war
     destination: /home/ubuntu/test
