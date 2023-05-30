@@ -6,4 +6,4 @@ files:
   - pwd
   
   - source: webapp/target/webapp.war
-    destination: /home/ubuntu/
+    destination: /home/ubuntu/test
