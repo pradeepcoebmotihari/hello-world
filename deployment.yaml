@@ -1,17 +1,17 @@
 kind: Deployment
 apiVersion: apps/v1
 metadata:
-  name: dep2
+  name: depsec
 spec:
   selector:
     matchLabels:
-      name: pradee21
+      name: pradeepsec
   replicas: 3
   template:
     metadata:
       name: pod
       labels:
-        name: pradeep2
+        name: pradeepsec
     spec:
       containers:
       - name: cont
